@@ -1,0 +1,28 @@
+#root
+{
+    min-width: 100%;
+    min-height: 100vh;
+    background-color: #3313eb91;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    display: block;
+    height: 33.3vh;
+}
+
+.header
+{
+    background-color: #f3f3f3;
+}
+
+.main
+{
+    background-color: #3313eb91;
+}
