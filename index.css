@@ -61,6 +61,7 @@ a:active
 
 .main-button
 {
+    margin: auto 0px 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -111,13 +112,9 @@ a:active
 
 .item_name
 {
-    height: 70px;
+    height: 65px;
     padding-top: 10px;
-}
-
-.item_body
-{
-    height: 50px;
+    flex-grow: 0;
 }
 
 .item_price
@@ -137,4 +134,9 @@ a:active
 {
     justify-content: center;
     gap: 25px;
+
+    p 
+    {
+        font-size: 10px;
+    }
 }
